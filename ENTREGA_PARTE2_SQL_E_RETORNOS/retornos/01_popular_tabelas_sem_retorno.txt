@@ -1,0 +1,6 @@
+Questao 1 - Popular todas as tabelas com dados validos
+
+Esta questao nao possui retorno em CSV, pois o enunciado solicita apenas a entrega dos comandos INSERT.
+
+Arquivo correspondente:
+../sql/01_popular_tabelas.sql

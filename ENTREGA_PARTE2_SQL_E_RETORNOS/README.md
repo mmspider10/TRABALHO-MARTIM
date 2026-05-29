@@ -17,6 +17,7 @@ Esta pasta contem somente os arquivos necessarios para entrega:
 
 ## Retornos CSV
 
+1. `retornos/01_popular_tabelas_sem_retorno.txt`: observacao da questao 1, que solicita apenas inserts.
 1. `retornos/02_escolas_total_alunos.csv`
 2. `retornos/03_alunos_sem_sessao.csv`
 3. `retornos/04_respostas_questao_45_por_escola.csv`
