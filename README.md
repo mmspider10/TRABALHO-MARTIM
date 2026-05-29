@@ -13,6 +13,7 @@ Entrega da modelagem de banco de dados da plataforma **"Simulador ENEM"**.
 - [triggers.sql](./triggers.sql): automacoes e validacoes de negocio
 - [rls.sql](./rls.sql): politicas de Row Level Security
 - [entrega_completa.sql](./entrega_completa.sql): script unico com toda a entrega
+- [parte2](./parte2): inserts, consultas e resultados CSV da avaliacao parte 2
 
 ## Premissas adotadas
 
@@ -75,3 +76,11 @@ set app.current_user_id = '00000000-0000-0000-0000-000000000001';
 ## Observacao
 
 O script foi escrito para ser legivel, modular e fiel ao enunciado da avaliacao, com foco em modelagem relacional, integridade, automacao e seguranca em banco de dados.
+
+## Parte 2
+
+A pasta `parte2` contem:
+
+- `01_popular_tabelas.sql`: massa de dados completa e deterministica.
+- `02_escolas_total_alunos.sql` a `07_hall_da_fama_semanal.sql`: consultas solicitadas.
+- `resultados/*.csv`: resultado esperado de cada consulta.
